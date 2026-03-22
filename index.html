@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alwin Mathew Tomy | Machine Learning Engineer</title>
+    <meta name="description" content="Portfolio of Alwin Mathew Tomy, Aspiring Machine Learning Engineer.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <span class="preloader-text">Alwin Mathew Tomy</span>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <nav>
+        <a href="#" class="logo" style="font-weight: 700; color: var(--accent-gold);">Alwin Mathew Tomy</a>
+        <ul class="nav-links">
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding-top: 10rem;">
+            <div class="hero-content">
+                <h1 class="hero-anim d-1" style="color: var(--accent-gold); font-family: var(--font-serif); font-size: 3.5rem; margin-bottom: 1.5rem;">Hi, I'm Alwin Mathew Tomy</h1>
+                <p class="subtitle hero-anim d-2" style="max-width: 600px; margin: 0 auto 2.5rem auto; font-family: var(--font-sans); color: var(--text-light); line-height: 1.6; font-size: 1.1rem;">
+                    Aspiring Machine Learning Engineer with hands-on experience in statistical modeling, AI-powered applications, and data-driven systems.
+                </p>
+                <div class="hero-cta hero-anim d-3" style="display: flex; justify-content: center;">
+                    <a href="#projects" class="btn btn-outline" style="border-radius: 6px; border-color: var(--text-light); color: var(--text-light);">Explore My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section reveal" style="padding-top: 6rem;">
+            <h2 class="section-title" style="text-align: center; color: var(--accent-gold); border-bottom: none; margin-bottom: 0.5rem; font-size: 2.5rem;">About Me</h2>
+            <div style="width: 40px; height: 2px; background-color: var(--text-light); margin: 0 auto 4rem auto;"></div>
+            
+            <div class="about-grid">
+                <div class="about-bio reveal stagger-1" style="font-family: var(--font-sans); color: var(--text-light); line-height: 1.8; font-size: 1.05rem;">
+                    <p style="margin-bottom: 1.5rem;">A passionate tech enthusiast and Computer Science & Engineering student at Lovely Professional University, specializing in Machine Learning and Artificial Intelligence. I love building impactful projects that blend innovation with practicality, from robust fraud detection algorithms to intelligently automated campus infrastructure.</p>
+                    <p style="margin-bottom: 2.5rem;">With a solid foundation in Python, OpenCV, and statistical modeling, I enjoy solving real-world computational problems through clean, efficient code and creative thinking. I'm currently aiming to secure an ML-focused software engineering role—and every line of code I write is a step closer to that goal.</p>
+                    
+                    <div class="hero-cta" style="display: flex; gap: 1.5rem;">
+                        <a href="#contact" class="btn btn-outline" style="border-radius: 6px; border-color: var(--text-light); color: var(--text-light); padding: 0.8rem 2rem;">Get In Touch</a>
+                        <a href="Alwin General CV.pdf" target="_blank" download class="btn btn-outline" style="border-radius: 6px; border-color: var(--text-light); color: var(--text-light); padding: 0.8rem 2rem;">View CV</a>
+                    </div>
+                </div>
+                
+                <div class="about-image reveal stagger-2" style="display: flex; justify-content: center;">
+                    <!-- Placeholder Profile Image via CSS Outline/Gradient -->
+                    <div style="width: 320px; height: 320px; border-radius: 50%; border: 4px solid var(--accent-gold); box-shadow: 0 0 20px rgba(184, 149, 106, 0.2); overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center;">
+                        <img src="alwin.jpg" alt="Alwin Mathew Tomy" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section reveal" style="padding-top: 6rem;">
+            <h2 class="section-title" style="text-align: center; color: var(--accent-gold); border-bottom: none; margin-bottom: 0.5rem; font-size: 2.5rem;">My Skills</h2>
+            <div style="width: 40px; height: 2px; background-color: var(--text-light); margin: 0 auto 3rem auto;"></div>
+            
+            <h3 style="text-align: center; color: var(--accent-gold); margin-bottom: 2rem; font-family: var(--font-serif); font-size: 1.8rem;">Technical Skills</h3>
+            <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin-bottom: 4rem;">
+                <!-- Skill cards -->
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M14.22 9.58c..."/> <!-- Using generic icon for structural layout --><text x="4" y="16" font-size="16" font-weight="bold" fill="currentColor">&lt;/&gt;</text></svg>
+                    <span style="font-size: 0.95rem;">Python</span>
+                </div>
+                <!-- Card 2 -->
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><text x="4" y="16" font-size="16" font-weight="bold" fill="currentColor">&lt;/&gt;</text></svg>
+                    <span style="font-size: 0.95rem;">C++</span>
+                </div>
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><text x="4" y="16" font-size="16" font-weight="bold" fill="currentColor">&lt;/&gt;</text></svg>
+                    <span style="font-size: 0.95rem;">Java</span>
+                </div>
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2"/></svg>
+                    <span style="font-size: 0.95rem;">DSA</span>
+                </div>
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                    <span style="font-size: 0.95rem;">Scikit-learn</span>
+                </div>
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><line x1="3" y1="9" x2="21" y2="9" stroke="currentColor" stroke-width="2"/></svg>
+                    <span style="font-size: 0.95rem;">SQL</span>
+                </div>
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M4 20h16v-2H4v2zm0-16v12h16V4H4zm14 10H6V6h12v8z" fill="currentColor"/></svg>
+                    <span style="font-size: 0.95rem;">Data Analysis</span>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; color: var(--accent-gold); margin-bottom: 2rem; font-family: var(--font-serif); font-size: 1.8rem;">Soft Skills</h3>
+            <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <span style="font-size: 0.95rem;">Leadership & Influence</span>
+                </div>
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z"/></svg>
+                    <span style="font-size: 0.95rem;">Problem-Solving</span>
+                </div>
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                    <span style="font-size: 0.95rem;">Collaboration</span>
+                </div>
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 1.5rem 1rem; text-align: center; color: var(--text-light); display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+                    <span style="font-size: 0.95rem;">Communication</span>
+                </div>
+            </div>
+
+        <!-- Training Section -->
+        <section id="training" class="reveal" style="padding-top: 6rem;">
+            <h2 class="section-title" style="text-align: center; color: var(--accent-gold); border-bottom: none; margin-bottom: 0.5rem; font-size: 2.5rem;">Training</h2>
+            <div style="width: 40px; height: 2px; background-color: var(--text-light); margin: 0 auto 4rem auto;"></div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <!-- Training Item -->
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 2rem; margin-bottom: 2rem; background: transparent;">
+                    <h3 style="color: var(--accent-gold); font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 0.3rem;">Data Science: From Data to Decisions</h3>
+                    <p style="color: var(--text-light); font-weight: bold; font-family: var(--font-sans); margin-bottom: 0.5rem;">Lovely Professional University (55-60 hours)</p>
+                    <p style="color: var(--text-light); font-size: 0.9rem; font-family: var(--font-sans); margin-bottom: 1.5rem;">June 2025 - July 2025</p>
+                    <p style="color: var(--text-light); line-height: 1.6; font-family: var(--font-sans);">
+                        Hands-on Data Science training covering SQL, Excel, Power BI, and Python. Gained practical experience in data cleaning, EDA, visualization, and building machine learning models applied to solve real-world business problems.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="reveal" style="padding-top: 6rem;">
+            <h2 class="section-title" style="text-align: center; color: var(--accent-gold); border-bottom: none; margin-bottom: 0.5rem; font-size: 2.5rem;">Education</h2>
+            <div style="width: 40px; height: 2px; background-color: var(--text-light); margin: 0 auto 4rem auto;"></div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 2rem; margin-bottom: 2rem; background: transparent;">
+                    <h3 style="color: var(--accent-gold); font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 0.3rem;">B.Tech - Computer Science and Engineering</h3>
+                    <p style="color: var(--text-light); font-weight: bold; font-family: var(--font-sans); margin-bottom: 0.5rem;">Lovely Professional University</p>
+                    <p style="color: var(--text-light); font-size: 0.9rem; font-family: var(--font-sans); margin-bottom: 1.5rem;">August 2023 - Present</p>
+                    <p style="color: var(--text-light); line-height: 1.6; font-family: var(--font-sans);">
+                        Specializing in Machine Learning and Data Science. Maintaining a strong academic record with a CGPA of 7.39 and actively participating in technical workshops and coding competitions.
+                    </p>
+                </div>
+
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 2rem; margin-bottom: 2rem; background: transparent;">
+                    <h3 style="color: var(--accent-gold); font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 0.3rem;">Intermediate (Class XII)</h3>
+                    <p style="color: var(--text-light); font-weight: bold; font-family: var(--font-sans); margin-bottom: 0.5rem;">Kendriya Vidyalaya Keltron Nagar, Kannur</p>
+                    <p style="color: var(--text-light); font-size: 0.9rem; font-family: var(--font-sans); margin-bottom: 1.5rem;">April 2021 - March 2023</p>
+                    <p style="color: var(--text-light); line-height: 1.6; font-family: var(--font-sans);">
+                        Completed higher secondary education with a focus on science and mathematics. Secured a percentage of 82.8%.
+                    </p>
+                </div>
+
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; padding: 2rem; margin-bottom: 2rem; background: transparent;">
+                    <h3 style="color: var(--accent-gold); font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 0.3rem;">Matriculation (Class X)</h3>
+                    <p style="color: var(--text-light); font-weight: bold; font-family: var(--font-sans); margin-bottom: 0.5rem;">Kendriya Vidyalaya Keltron Nagar, Kannur</p>
+                    <p style="color: var(--text-light); font-size: 0.9rem; font-family: var(--font-sans); margin-bottom: 1.5rem;">April 2020 - March 2021</p>
+                    <p style="color: var(--text-light); line-height: 1.6; font-family: var(--font-sans);">
+                        Completed secondary education with a strong academic foundation. Secured a percentage of 87.4%.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="reveal" style="padding-top: 6rem;">
+            <h2 class="section-title" style="text-align: center; color: var(--accent-gold); border-bottom: none; margin-bottom: 0.5rem; font-size: 2.5rem;">My Projects</h2>
+            <div style="width: 40px; height: 2px; background-color: var(--text-light); margin: 0 auto 4rem auto;"></div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                
+                <!-- Project 1 -->
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;">
+                    <!-- Image Placeholder Section -->
+                    <div style="height: 180px; background: rgba(184, 149, 106, 0.1); border-bottom: 1px solid var(--text-light); display: flex; align-items: center; justify-content: center;">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="var(--accent-gold)" opacity="0.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+                    </div>
+                    <!-- Text Section -->
+                    <div style="padding: 1.5rem; text-align: center;">
+                        <h3 style="color: var(--accent-gold); font-family: var(--font-serif); margin-bottom: 1rem; font-size: 1.4rem;">Smart Campus Management System</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem; line-height: 1.5; font-family: var(--font-sans); margin-bottom: 1.5rem;">
+                            A Python-based smart campus management platform using Django. Integrates intelligent face recognition attendance via OpenCV, food stall pre-ordering, and real-time resource analytics.
+                        </p>
+                        <a href="https://github.com/AlwinMT31/Smart-AI-Enabled-Campus-Management-System-Using-Python-Frameworks" target="_blank" class="btn btn-outline" style="border-radius: 4px; padding: 0.5rem 1rem; font-size: 0.85rem; border-color: var(--text-light); color: var(--text-light);">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="height: 180px; background: rgba(184, 149, 106, 0.1); border-bottom: 1px solid var(--text-light); display: flex; align-items: center; justify-content: center;">
+                       <svg width="48" height="48" viewBox="0 0 24 24" fill="var(--accent-gold)" opacity="0.5"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><line x1="3" y1="9" x2="21" y2="9" stroke="currentColor" stroke-width="2"/></svg>
+                    </div>
+                    <div style="padding: 1.5rem; text-align: center;">
+                        <h3 style="color: var(--accent-gold); font-family: var(--font-serif); margin-bottom: 1rem; font-size: 1.4rem;">Credit Card Fraud Detection</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem; line-height: 1.5; font-family: var(--font-sans); margin-bottom: 1.5rem;">
+                            ML-based fraud detection system utilizing Python. Trained Logistic Regression, Random Forest, and XGBoost models. Enabled data-driven insights through interactive Power BI dashboards.
+                        </p>
+                        <a href="https://github.com/AlwinMT31/Credit-Card-Fraud-Detection" target="_blank" class="btn btn-outline" style="border-radius: 4px; padding: 0.5rem 1rem; font-size: 0.85rem; border-color: var(--text-light); color: var(--text-light);">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div style="border: 1px solid var(--text-light); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="height: 180px; background: rgba(184, 149, 106, 0.1); border-bottom: 1px solid var(--text-light); display: flex; align-items: center; justify-content: center;">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="var(--accent-gold)" opacity="0.5"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+                    </div>
+                    <div style="padding: 1.5rem; text-align: center;">
+                        <h3 style="color: var(--accent-gold); font-family: var(--font-serif); margin-bottom: 1rem; font-size: 1.4rem;">Grievance Redressal Platform</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem; line-height: 1.5; font-family: var(--font-sans); margin-bottom: 1.5rem;">
+                            Centralized MERN stack management platform. Integrated an NLP-based model to intelligently classify complaints and generate automated responses, vastly improving administrative transparency.
+                        </p>
+                        <a href="https://github.com/AlwinMT31/Grievance-Redressal-Platform" target="_blank" class="btn btn-outline" style="border-radius: 4px; padding: 0.5rem 1rem; font-size: 0.85rem; border-color: var(--text-light); color: var(--text-light);">View Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="reveal" style="padding-top: 6rem;">
+            <h2 class="section-title" style="text-align: center; color: var(--accent-gold); border-bottom: none; margin-bottom: 0.5rem; font-size: 2.5rem;">Certificates</h2>
+            <div style="width: 40px; height: 2px; background-color: var(--text-light); margin: 0 auto 4rem auto;"></div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                
+                <!-- Certificate Card 1 -->
+                <div style="border: 1px solid var(--surface-border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; background: var(--bg-surface); transition: var(--transition-smooth);">
+                    <div style="height: 200px; overflow: hidden; border-bottom: 1px solid var(--surface-border); display: flex; align-items: center; justify-content: center; background: #fff;">
+                        <img src="hci_certificate.png?v=2" alt="Human Computer Interaction Certificate" style="width: 100%; height: 100%; object-fit: contain; padding: 0.5rem;" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\'><rect width=\'100%\' height=\'100%\' fill=\'%23111\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'14\' fill=\'%23666\' dominant-baseline=\'middle\' text-anchor=\'middle\'>Missing hci_certificate.png</text></svg>'">
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="color: var(--text-light); font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 0.5rem; line-height: 1.2;">Human Computer Interaction</h4>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: rgba(255,255,255,0.7); font-size: 0.85rem; font-family: var(--font-sans);">NPTEL • Apr 2025</span>
+                            <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs38/Course/NPTEL25CS38S54750062704315020.pdf" target="_blank" style="color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; font-weight: bold;">View Original</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 2 -->
+                <div style="border: 1px solid var(--surface-border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; background: var(--bg-surface); transition: var(--transition-smooth);">
+                    <div style="height: 200px; overflow: hidden; border-bottom: 1px solid var(--surface-border); display: flex; align-items: center; justify-content: center; background: #fff;">
+                        <img src="Hardware_os_certificate.png" alt="Introduction to Hardware and OS Certificate" style="width: 100%; height: 100%; object-fit: contain; padding: 0.5rem;" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\'><rect width=\'100%\' height=\'100%\' fill=\'%23111\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'14\' fill=\'%23666\' dominant-baseline=\'middle\' text-anchor=\'middle\'>Missing Hardware_os_certificate.png</text></svg>'">
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="color: var(--text-light); font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 0.5rem; line-height: 1.2;">Introduction to Hardware and OS</h4>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: rgba(255,255,255,0.7); font-size: 0.85rem; font-family: var(--font-sans);">IBM • Sept 2024</span>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/YG5SH6NU85F0" target="_blank" style="color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; font-weight: bold;">View Original</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 3 -->
+                <div style="border: 1px solid var(--surface-border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; background: var(--bg-surface); transition: var(--transition-smooth);">
+                    <div style="height: 200px; overflow: hidden; border-bottom: 1px solid var(--surface-border); display: flex; align-items: center; justify-content: center; background: #fff;">
+                        <img src="digital_system.png" alt="Digital Systems: Logic Gates Certificate" style="width: 100%; height: 100%; object-fit: contain; padding: 0.5rem;" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\'><rect width=\'100%\' height=\'100%\' fill=\'%23111\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'14\' fill=\'%23666\' dominant-baseline=\'middle\' text-anchor=\'middle\'>Missing digital_system.png</text></svg>'">
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="color: var(--text-light); font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 0.5rem; line-height: 1.2;">Digital Systems: Logic Gates</h4>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: rgba(255,255,255,0.7); font-size: 0.85rem; font-family: var(--font-sans);">UAB • Sept 2024</span>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/KT40W9EDVPZQ" target="_blank" style="color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; font-weight: bold;">View Original</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="reveal" style="padding-top: 6rem; padding-bottom: 6rem;">
+            <h2 class="section-title" style="text-align: center; color: var(--accent-gold); border-bottom: none; margin-bottom: 0.5rem; font-size: 2.5rem;">Contact Me</h2>
+            <div style="width: 40px; height: 2px; background-color: var(--text-light); margin: 0 auto 4rem auto;"></div>
+            
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" style="max-width: 600px; margin: 0 auto; border: 1px solid var(--text-light); border-radius: 8px; padding: 3rem 2.5rem;">
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="cde9ec6c-8a62-4ed4-9fdd-a9d20208562d">
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="color: var(--text-light); display: block; margin-bottom: 0.5rem; font-family: var(--font-sans); font-size: 0.9rem;">Name</label>
+                    <input type="text" name="name" style="width: 100%; box-sizing: border-box; padding: 0.8rem; background: transparent; border: 1px solid var(--text-light); border-radius: 4px; color: var(--text-light); font-family: var(--font-sans);" required>
+                </div>
+                
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="color: var(--text-light); display: block; margin-bottom: 0.5rem; font-family: var(--font-sans); font-size: 0.9rem;">Email</label>
+                    <input type="email" name="email" style="width: 100%; box-sizing: border-box; padding: 0.8rem; background: transparent; border: 1px solid var(--text-light); border-radius: 4px; color: var(--text-light); font-family: var(--font-sans);" required>
+                </div>
+                
+                <div style="margin-bottom: 2rem;">
+                    <label style="color: var(--text-light); display: block; margin-bottom: 0.5rem; font-family: var(--font-sans); font-size: 0.9rem;">Message</label>
+                    <textarea name="message" rows="5" style="width: 100%; box-sizing: border-box; padding: 0.8rem; background: transparent; border: 1px solid var(--text-light); border-radius: 4px; color: var(--text-light); font-family: var(--font-sans); resize: vertical;" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-outline" style="border-radius: 4px; border-color: var(--text-light); color: var(--text-light); cursor: pointer; padding: 0.8rem 2rem; font-family: var(--font-sans); transition: all 0.3s;">Send Message</button>
+            </form>
+
+            <script>
+                document.getElementById('contactForm').addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const form = e.target;
+                    const btn = form.querySelector('button[type="submit"]');
+                    const originalText = btn.innerText;
+
+                    btn.innerText = 'Sending...';
+                    btn.disabled = true;
+
+                    fetch(form.action, {
+                        method: form.method,
+                        body: new FormData(form),
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    }).then(response => {
+                        if (response.ok) {
+                            btn.innerText = 'Message Sent!';
+                            btn.style.backgroundColor = 'var(--text-light)';
+                            btn.style.color = 'var(--bg-dark)';
+                            form.reset();
+                            setTimeout(() => {
+                                btn.innerText = originalText;
+                                btn.style.backgroundColor = 'transparent';
+                                btn.style.color = 'var(--text-light)';
+                                btn.disabled = false;
+                            }, 3000);
+                        } else {
+                            btn.innerText = 'Error! Try Again';
+                            btn.disabled = false;
+                        }
+                    }).catch(error => {
+                        btn.innerText = 'Error! Try Again';
+                        btn.disabled = false;
+                    });
+                });
+            </script>
+            
+            <div style="display: flex; justify-content: center; gap: 2rem; margin-top: 4rem;">
+                <a href="https://www.linkedin.com/in/alwin-mathew-tomy/" target="_blank" style="color: var(--text-light); display: flex; align-items: center; gap: 0.5rem; text-decoration: none; font-family: var(--font-sans); font-size: 1.1rem; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-gold)'" onmouseout="this.style.color='var(--text-light)'">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/AlwinMT31" target="_blank" style="color: var(--text-light); display: flex; align-items: center; gap: 0.5rem; text-decoration: none; font-family: var(--font-sans); font-size: 1.1rem; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-gold)'" onmouseout="this.style.color='var(--text-light)'">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    GitHub
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer style="background: var(--bg-dark); padding: 3rem 0; text-align: center; border-top: 1px solid var(--text-light);">
+        <p style="color: rgba(240, 235, 224, 0.5); font-family: var(--font-mono); font-size: 0.85rem;">&copy; 2025 Alwin Mathew Tomy.</p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>

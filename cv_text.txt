@@ -1,0 +1,193 @@
+--- Standard Text ---
+Alwin Mathew Tomy 
+Linkedin:  linkedin.com/in/alwin-mathew-tomy                                                            Email: alwinmathewtomy31@gmail.com 
+GitHub:    github.com/AlwinMT31 
+  Mobile: +91-9188187253 
+ 
+SKILLS 
+• Languages: 
+Python, C++, C, Java 
+• Frameworks: 
+PyTorch, Scikit-learn, Pandas, NumPy, OpenCV, Transformers, NodeJS, React 
+• Tools/Platforms: 
+Jupyter Notebook, Google Colab, MySQL, MongoDB 
+• Soft Skills: 
+Problem-Solving, Team Player, Critical Thinking, Adaptability 
+ 
+PROJECTS 
+• Credit Card Fraud Detection System: Link  
+                                                           
+    Jun.2025 – Jul.2025 
+ 
+• Developed a machine learning–based Credit Card Fraud Detection system using Python, training and evaluating 
+Logistic Regression, Random Forest, and XGBoost models for fraud classification. 
+ 
+• Performed data preprocessing, feature scaling, and handled class imbalance, optimizing model performance using 
+metrics such as Precision, Recall, F1-Score, and ROC-AUC. 
+ 
+• Analyzed model performance and built Power BI dashboards to visualize fraud patterns and support data-driven 
+risk assessment. 
+Tech: Python, pandas, NumPy, scikit-learn, XGBoost, Power BI 
+Grievance Redressal Platform:  Link                                                            
+ 
+ 
+ Feb.2025 – May.2025 
+ 
+• Developed a centralized grievance management platform using the MERN stack, enabling structured complaint 
+submission, automated routing, real-time status tracking, and escalation workflows to streamline issue resolution. 
+ 
+• Integrated an NLP-based machine learning model to intelligently classify complaints and generate automated 
+responses, significantly reducing manual intervention and turnaround time. 
+ 
+• Designed analytics dashboards and implemented auditable tracking mechanisms to ensure transparency, 
+performance monitoring, and data-driven administrative decision-making. 
+Tech: MERN Stack, MongoDB, NLP Classification, REST APIs, Power BI / Tableau 
+ 
+TRAINING 
+• From Data to Decisions : A Hands-On Approach to Data Science: Link 
+ 
+                 Jun.2025 – Jul.2025 
+ 
+• Completed a 55–60 hour hands-on Data Science training covering SQL, Excel, Power BI, and Python. 
+• Gained practical experience in data cleaning, exploratory data analysis, visualization, and building machine 
+learning models using NumPy, Pandas, Matplotlib, Seaborn, and Scikit-Learn. 
+• Developed interactive dashboards and applied ML techniques to solve real-world business decision-making 
+problems. 
+CERTIFICATES 
+• Human Computer Interaction by NPTEL                                                                                                            Apr.2025 
+• Introduction to Hardware and Operating Systems by IBM                                                                                Sept.2024 
+• Digital Systems: From Logic Gates to Processors by UAB                                                                              Sept.2024 
+ 
+ACHIEVEMENTS 
+• Secured Top 2% Rank in NPTEL – Human Computer Interaction:  
+ 
+ 
+         Apr.2024 
+Among 4k+ participants nationwide.  
+ 
+EDUCATION 
+Lovely Professional University 
+   Punjab, India 
+Bachelor of Technology - Computer Science and Engineering; CGPA: 7.39                        Aug.2023 - Present 
+Kendriya Vidyalaya Keltron Nagar 
+  
+Kannur, Kerala 
+Intermediate; Percentage: 82.8% 
+     Apr.2021 – Mar.2023 
+Kendriya Vidyalaya Keltron Nagar 
+           Kannur, Kerala 
+Matriculation; Percentage: 87.4% 
+     Apr.2020 – Mar.2021 
+• 
+• 
+• 
+
+
+--- Blocks Text ---
+Alwin Mathew Tomy 
+
+Linkedin:  linkedin.com/in/alwin-mathew-tomy                                                            Email: alwinmathewtomy31@gmail.com 
+GitHub:    github.com/AlwinMT31 
+  Mobile: +91-9188187253 
+ 
+
+SKILLS 
+• Languages: 
+Python, C++, C, Java 
+• Frameworks: 
+PyTorch, Scikit-learn, Pandas, NumPy, OpenCV, Transformers, NodeJS, React 
+• Tools/Platforms: 
+Jupyter Notebook, Google Colab, MySQL, MongoDB 
+• Soft Skills: 
+Problem-Solving, Team Player, Critical Thinking, Adaptability 
+ 
+
+PROJECTS 
+
+• Credit Card Fraud Detection System: Link  
+                                                           
+    Jun.2025 – Jul.2025 
+
+ 
+• Developed a machine learning–based Credit Card Fraud Detection system using Python, training and evaluating 
+Logistic Regression, Random Forest, and XGBoost models for fraud classification. 
+
+ 
+• Performed data preprocessing, feature scaling, and handled class imbalance, optimizing model performance using 
+metrics such as Precision, Recall, F1-Score, and ROC-AUC. 
+
+ 
+• Analyzed model performance and built Power BI dashboards to visualize fraud patterns and support data-driven 
+risk assessment. 
+Tech: Python, pandas, NumPy, scikit-learn, XGBoost, Power BI 
+
+Grievance Redressal Platform:  Link                                                            
+ 
+ 
+ Feb.2025 – May.2025 
+
+ 
+• Developed a centralized grievance management platform using the MERN stack, enabling structured complaint 
+submission, automated routing, real-time status tracking, and escalation workflows to streamline issue resolution. 
+
+ 
+• Integrated an NLP-based machine learning model to intelligently classify complaints and generate automated 
+responses, significantly reducing manual intervention and turnaround time. 
+
+ 
+• Designed analytics dashboards and implemented auditable tracking mechanisms to ensure transparency, 
+performance monitoring, and data-driven administrative decision-making. 
+Tech: MERN Stack, MongoDB, NLP Classification, REST APIs, Power BI / Tableau 
+
+ 
+TRAINING 
+
+• From Data to Decisions : A Hands-On Approach to Data Science: Link 
+ 
+                 Jun.2025 – Jul.2025 
+ 
+• Completed a 55–60 hour hands-on Data Science training covering SQL, Excel, Power BI, and Python. 
+
+• Gained practical experience in data cleaning, exploratory data analysis, visualization, and building machine 
+learning models using NumPy, Pandas, Matplotlib, Seaborn, and Scikit-Learn. 
+
+• Developed interactive dashboards and applied ML techniques to solve real-world business decision-making 
+problems. 
+CERTIFICATES 
+• Human Computer Interaction by NPTEL                                                                                                            Apr.2025 
+• Introduction to Hardware and Operating Systems by IBM                                                                                Sept.2024 
+• Digital Systems: From Logic Gates to Processors by UAB                                                                              Sept.2024 
+ 
+
+ACHIEVEMENTS 
+• Secured Top 2% Rank in NPTEL – Human Computer Interaction:  
+ 
+ 
+         Apr.2024 
+
+Among 4k+ participants nationwide.  
+ 
+
+EDUCATION 
+
+Lovely Professional University 
+   Punjab, India 
+Bachelor of Technology - Computer Science and Engineering; CGPA: 7.39                        Aug.2023 - Present 
+
+Kendriya Vidyalaya Keltron Nagar 
+  
+Kannur, Kerala 
+Intermediate; Percentage: 82.8% 
+     Apr.2021 – Mar.2023 
+
+Kendriya Vidyalaya Keltron Nagar 
+           Kannur, Kerala 
+Matriculation; Percentage: 87.4% 
+     Apr.2020 – Mar.2021 
+
+• 
+
+• 
+
+• 
+
